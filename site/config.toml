@@ -1,9 +1,32 @@
 baseurl = "/"
-languageCode = "en-us"
-languageLang = "en"
-title = "My new Victor-Hugo site"
+languageCode = "ru-ru"
+languageLang = "ru"
+title = "Kate Ecomarkets"
 
 # RSS, categories and tags disabled for an easy start
-# See configuration options for more details: 
+# See configuration options for more details:
 # https://gohugo.io/getting-started/configuration/#toml-configuration
 disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+
+theme = ["hallo"]
+
+[Author]
+name = "smokyWater"
+
+[params]
+
+[[params.links]]
+iconset = "fas"
+icon = "envelope"
+title = "E-mail"
+url = "mailto:mail@example.org"
+
+[[params.links]]
+icon = "github"
+title = "Github"
+url = "https://github.com/"
+
+[[params.links]]
+icon = "twitter"
+title = "Twitter"
+url = "https://twitter.com/"

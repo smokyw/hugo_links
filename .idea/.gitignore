@@ -1,0 +1,12 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# CodeStream ignored files
+/../../hugo_links\.idea/codestream.xml
+# Datasource local storage ignored files
+/../../../../../../:\Users\xloal\IdeaProjects\hugo_links\.idea/dataSources/
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Zeppelin ignored files
+/ZeppelinRemoteNotebooks/
